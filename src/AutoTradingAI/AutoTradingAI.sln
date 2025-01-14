@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{83437C30-DE87-4524-B584-927207CC4102}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AutoTradingAI.User", "AutoTradingAI.User", "{7CFD7F67-33F0-41AF-BE6B-C2C6E34CE717}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoTradingAI.User.Core", "AutoTradingAI.User.Core\AutoTradingAI.User.Core.csproj", "{A7592D8C-EA5E-4E08-A37C-7C3782472CC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoTradingAI.User.Infrastructure", "AutoTradingAI.User.Infrastructure\AutoTradingAI.User.Infrastructure.csproj", "{AB387570-FC84-4BBD-AA6C-726F89D7D453}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoTradingAI.User.Api", "AutoTradingAI.User.Api\AutoTradingAI.User.Api.csproj", "{419F3367-461B-4746-9B54-638C9AEABE23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{29E25EAC-D148-4435-83FA-D207D763514B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{43A4F3E2-2AFB-4541-9A09-67EB911A1027}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoTradingAI.Logging", "AutoTradingAI.Logging\AutoTradingAI.Logging.csproj", "{8CE5D87B-BF3D-457B-8F0C-7033A0B945C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7592D8C-EA5E-4E08-A37C-7C3782472CC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7592D8C-EA5E-4E08-A37C-7C3782472CC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7592D8C-EA5E-4E08-A37C-7C3782472CC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7592D8C-EA5E-4E08-A37C-7C3782472CC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB387570-FC84-4BBD-AA6C-726F89D7D453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB387570-FC84-4BBD-AA6C-726F89D7D453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB387570-FC84-4BBD-AA6C-726F89D7D453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB387570-FC84-4BBD-AA6C-726F89D7D453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{419F3367-461B-4746-9B54-638C9AEABE23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{419F3367-461B-4746-9B54-638C9AEABE23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{419F3367-461B-4746-9B54-638C9AEABE23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{419F3367-461B-4746-9B54-638C9AEABE23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CE5D87B-BF3D-457B-8F0C-7033A0B945C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE5D87B-BF3D-457B-8F0C-7033A0B945C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE5D87B-BF3D-457B-8F0C-7033A0B945C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE5D87B-BF3D-457B-8F0C-7033A0B945C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7CFD7F67-33F0-41AF-BE6B-C2C6E34CE717} = {83437C30-DE87-4524-B584-927207CC4102}
+		{A7592D8C-EA5E-4E08-A37C-7C3782472CC9} = {7CFD7F67-33F0-41AF-BE6B-C2C6E34CE717}
+		{AB387570-FC84-4BBD-AA6C-726F89D7D453} = {7CFD7F67-33F0-41AF-BE6B-C2C6E34CE717}
+		{419F3367-461B-4746-9B54-638C9AEABE23} = {7CFD7F67-33F0-41AF-BE6B-C2C6E34CE717}
+		{8CE5D87B-BF3D-457B-8F0C-7033A0B945C5} = {29E25EAC-D148-4435-83FA-D207D763514B}
+	EndGlobalSection
+EndGlobal
